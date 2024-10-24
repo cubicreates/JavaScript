@@ -132,6 +132,7 @@ else{
     console.log("Study!")
 };
 
+
 // Loops
 
 
@@ -155,4 +156,12 @@ do {
 
 for(i=0; i<10; i++){
     console.log(i)
+}
+
+// For In Loop
+
+let k = [1,2,3,4,5,6]
+
+for (let Index in k){
+    console.log(k[Index])
 }
