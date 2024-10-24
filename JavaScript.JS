@@ -14,3 +14,4 @@ console.log($name2)
 // gives the datatype of variable
 let type = typeof $name1
 console.log(type)
+
