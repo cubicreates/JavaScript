@@ -131,3 +131,5 @@ else if (CGPA<7.5 && CGPA>=5){
 else{
     console.log("Study!")
 };
+
+// Loops
