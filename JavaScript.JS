@@ -106,3 +106,28 @@ console.log(avengers)
 delete avengers.AntMan
 console.log(avengers)
 
+// Conditional Statemnents (If Else-If Else)
+
+// CGPA RESPONSE
+
+let CGPA = 9.7
+
+if (CGPA==10){
+    console.log("Excellent!")
+}
+
+else if(CGPA<10 && CGPA>=9){ // && -> and operator ; || -> or operator
+    console.log("Very Good")
+}
+
+else if (CGPA<9 && CGPA>=7.5){
+    console.log("Good")
+}
+
+else if (CGPA<7.5 && CGPA>=5){
+    console.log("Could do better")
+}
+
+else{
+    console.log("Study!")
+};
