@@ -30,40 +30,79 @@ arr[4] = true
 console.log(arr)
 
 // to get the length of arrays
-len = arr.length
+let len = arr.length
 console.log(len)
 
 // Array Methods
 
 // pop method (takes out the last element of the array)
 console.log(arr)
-pp = arr.pop()
+let pp = arr.pop()
 
 console.log(pp)
 console.log(arr)
 
 // push method (enters the element at the end of the array)
-bool= false
+let bool= false
 pu = arr.push(bool)
 
 console.log(arr)
 
 // shift method (takes out the first element of the array)
-sh = arr.shift()
+let sh = arr.shift()
 
 console.log(sh)
 console.log(arr)
 
 // unshift method (enters the elment at the front of the array)
-str = "I"
+let str = "I"
 unsh = arr.unshift(str)
 
 console.log(arr)
 
 // popping specific elements
-Pop = arr.pop(false)
+let Pop = arr.pop(false)
 
 console.log(Pop)
 console.log(arr)
 
-// 
+// Objects
+let avengers = {
+    "IronMan" : "Tony Stark",
+    "Captain-America" : "Steve Rogers",
+    "Black-Widow" : "Natasha Romanof"
+}
+
+console.log(avengers)
+
+// Accessing the value from the key - value pair (property) from an object
+
+// Method 1
+let $M1 = avengers.IronMan
+console.log($M1)
+
+// Method 2
+let $M2 = avengers["Captain-America"]
+console.log($M2)
+
+// Adding a property
+avengers.Hawkeye = "Clint Barton"
+avengers.AntMan = "Scott Lang"
+console.log(avengers)
+
+// Updating a property + Adding Array in Object
+avengers["Black-Widow"] = ["Natasha", "Romanof"]
+console.log(avengers)
+
+// Adding Object inside Object
+avengers.Hawkeye = {
+    "Name" : "Clint Barton",
+    "Affiliation" : "S.H.E.I.L.D"
+}
+console.log(avengers)
+
+// Deleting a property
+
+delete avengers.AntMan
+console.log(avengers)
+
