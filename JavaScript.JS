@@ -32,3 +32,36 @@ console.log(arr)
 // to get the length of arrays
 len = arr.length
 console.log(len)
+
+// Array Methods
+
+// pop method (takes out the last element of the array)
+console.log(arr)
+pp = arr.pop()
+
+console.log(pp)
+console.log(arr)
+
+// push method (enters the element at the end of the array)
+bool= false
+pu = arr.push(bool)
+
+console.log(arr)
+
+// shift method (takes out the first element of the array)
+sh = arr.shift()
+
+console.log(sh)
+console.log(arr)
+
+// unshift method (enters the elment at the front of the array)
+str = "I"
+unsh = arr.unshift(str)
+
+console.log(arr)
+
+// popping specific elements
+Pop = arr.pop(false)
+
+console.log(Pop)
+console.log(arr)
