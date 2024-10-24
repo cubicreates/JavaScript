@@ -165,3 +165,11 @@ let k = [1,2,3,4,5,6]
 for (let Index in k){
     console.log(k[Index])
 }
+
+// For Of Loop
+
+let l = "AVENGERS"
+
+for(let letter of l){
+    console.log(letter)
+}
