@@ -137,7 +137,7 @@ else{
 
 // While Loop
 
-i = 0
+let i = 0
 while (i<=10){
     console.log(i)
     i++
@@ -145,8 +145,14 @@ while (i<=10){
 
 // Do - While Loop
 
-j = 0
+let j = 0
 do {
     console.log(j)
     j++
 } while (j<=10);
+
+// For Loop
+
+for(i=0; i<10; i++){
+    console.log(i)
+}
