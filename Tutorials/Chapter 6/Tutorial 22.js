@@ -14,7 +14,7 @@ while(i<=100){
     };
 
     i++;
-}
+};
 
 console.log("Your score ",100-i);
 
