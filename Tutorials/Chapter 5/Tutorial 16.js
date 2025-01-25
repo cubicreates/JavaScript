@@ -13,7 +13,7 @@ console.log(i[5]);
 
 console.log(i.length);
 
-i[4] = false
+i[4] = false;
 console.log(i);
 
 console.log(typeof i);
